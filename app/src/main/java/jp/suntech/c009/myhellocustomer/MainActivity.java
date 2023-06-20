@@ -2,7 +2,7 @@ package jp.suntech.c009.myhellocustomer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.location.GnssAntennaInfo;
+//import android.location.GnssAntennaInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 String inputStra = inputA.getText().toString();
 
                 //メッセージを表示
-                output.setText(inputStra + "にお住いの" + inputStrn + "さん、こんにちは！");
+                output.setText(inputStra );
             }
             else if(id == R.id.btNClear){
                 //クリアボタンの場合
